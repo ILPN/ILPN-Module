@@ -4,6 +4,7 @@
     "scripts": {
         "ng": "ng",
         "test": "ng test",
+        "test:components": "ng test ilpn-components --watch=false --browsers=ChromeHeadless",
         "build:components": "ng build ilpn-components",
         "build-local:components": "npm run build:components && npm i ./dist/ilpn-components --save-optional",
         "build": "npm run build-local:components && ng build ilpn-module --base-href /ilovepetrinets/TODO/",
