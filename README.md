@@ -85,7 +85,7 @@ Should the `base-href` of the project be modified (as is usually the case for IL
 
 The ILPN Module repository (this repository) is updated in tandem with its [ILPN Components](https://github.com/ILPN/ILPN-Components) counterpart.
 If you want to update to a newer version of the Components library, make sure that you apply all the changes to the template library mentioned in the [Changelog](./CHANGELOG.md).
-If you are updating from a 0.x version, the changes are NOT documented in the changelog and you will have to reconstruct them from the commit made to this project.
+If you are updating from a 0.x version, the changes are NOT documented in the changelog and you will have to reconstruct them from the commits made to this project.
 
 ## Reporting issues
 
