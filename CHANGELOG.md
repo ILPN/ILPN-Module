@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 [//]: # (## Unreleased)
 
-## 1.0.0 - 2022-10-10
+## 1.0.0 - 2022-10-11
 ### Added
 - Changelog was added to the project
 - Unit tests have been added to the components library and a lauch script has been added to the module template - [commit](https://github.com/ILPN/ILPN-Module/commit/d75719995493c8fe580580f8b7d9b49cdd85499a)
@@ -17,3 +17,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Fixed
 - The need for a duplicate specification of the `base-href` build attribute has been removed - [commit](https://github.com/ILPN/ILPN-Module/commit/80b72842c69e388b409587e2030b5eb202424e64)
+
+### Security
+- Bump terser and @angular-devkit/build-angular - [commit](https://github.com/ILPN/ILPN-Module/commit/cbd23b79c6557ebff7f686b7135dba4400804cc0)
