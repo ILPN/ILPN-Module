@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 [//]: # (## Unreleased)
 
+## 1.1.0 - 2022-12-16
+### Components
+- The components library version has been increased to v1.1.0
+  - a changelog has been added for the component library - [here](https://github.com/ILPN/ILPN-Components/blob/master/CHANGELOG.md)
+
 ## 1.0.0 - 2022-10-11
 ### Added
 - Changelog was added to the project
