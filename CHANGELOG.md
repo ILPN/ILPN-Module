@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 [//]: # (## Unreleased)
 
+## 1.2.0 - 2023-04-11
+### Added
+- a dependency on Angular `RoutingModule` has been added to the project - [commit](https://github.com/ILPN/ILPN-Module/commit/4925c58b70e7a6054df5ba74e87dd779cd8bb2bd)
+
 ## 1.1.0 - 2022-12-16
 ### Components
 - The components library version has been increased to v1.1.0

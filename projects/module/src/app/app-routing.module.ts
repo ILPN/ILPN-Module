@@ -5,7 +5,9 @@ import {AppComponent} from './app.component';
 
 
 const routes: Routes = [
+    // paths handled by this single-page app belong at the top
     {path: '', component: AppComponent},
+    // The external redirect hook, bypasses the router and forces a browser redirect to a relative URL, effectively leaving this site
     {path: '**', canActivate: [ExternalRedirectHookGuard], redirectTo: ''}
 ];
 
