@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
+Changes to the components library are tracked in a separate changelog found [here](https://github.com/ILPN/ILPN-Components/blob/master/CHANGELOG.md).
+
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 [//]: # (## Unreleased)
