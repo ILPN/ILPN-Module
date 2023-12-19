@@ -8,7 +8,8 @@
         "build:components": "ng build ilpn-components",
         "build-local:components": "npm run build:components && npm i ./dist/ilpn-components --save-optional",
         "build": "npm run build-local:components && ng build ilpn-module --base-href /ilovepetrinets/TODO/",
-        "start": "npm run build-local:components && ng serve"
+        "start": "npm run build-local:components && ng serve",
+        "install-dependencies": "npm i"
     },
     "private": true,
     "dependencies": {
