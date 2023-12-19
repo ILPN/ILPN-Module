@@ -8,6 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 [//]: # (## Unreleased)
 
+## 1.3.0 - 2023-12-19
+### Components
+- The components library version has been increased to v1.3.0
+
+### Security
+- Bump webpack and @angular-devkit/build-angular - [commit](https://github.com/ILPN/ILPN-Module/commit/7c8ad0809d5630628fb8c0cb7175eec23ee2abde)
+
 ## 1.2.0 - 2023-04-11
 ### Added
 - a dependency on Angular `RoutingModule` has been added to the project - [commit](https://github.com/ILPN/ILPN-Module/commit/4925c58b70e7a6054df5ba74e87dd779cd8bb2bd)

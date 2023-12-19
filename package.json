@@ -8,7 +8,8 @@
         "build:components": "ng build ilpn-components",
         "build-local:components": "npm run build:components && npm i ./dist/ilpn-components --save-optional",
         "build": "npm run build-local:components && ng build ilpn-module --base-href /ilovepetrinets/TODO/",
-        "start": "npm run build-local:components && ng serve"
+        "start": "npm run build-local:components && ng serve",
+        "install-dependencies": "npm i"
     },
     "private": true,
     "dependencies": {
@@ -32,7 +33,7 @@
         "zone.js": "~0.11.4"
     },
     "devDependencies": {
-        "@angular-devkit/build-angular": "^13.3.9",
+        "@angular-devkit/build-angular": "^13.3.11",
         "@angular/cli": "~13.1.4",
         "@angular/compiler-cli": "~13.1.0",
         "@types/file-saver": "^2.0.5",
