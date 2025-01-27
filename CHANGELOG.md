@@ -8,6 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 [//]: # (## Unreleased)
 
+## 1.5.0 - 2025-01-27
+### Changed
+- extended the configuration of the `IlpnAlgorithmsModule`. Now, debug information logging is disabled by default - [commit](https://github.com/ILPN/ILPN-Module/commit/8d5eb08721366bc2a80f577c9d28924625b7bbbd)
+- the dependency version of `glpk.js` was changed from `4.0.1` to `4.0.2` - [commit](https://github.com/ILPN/ILPN-Module/commit/8d5eb08721366bc2a80f577c9d28924625b7bbbd)
+  
+### Components
+- The components library version has been increased to v1.5.0
+
 ## 1.4.0 - 2024-02-20
 ### Added
 - a dependency on `fast-xml-parser` has been added to the project - [commit](https://github.com/ILPN/ILPN-Module/commit/a0c7b99172d6cd23cebe8ff2883bba478a4b9b0a)
@@ -16,7 +24,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Components
 - The components library version has been increased to v1.4.0
-
 
 ## 1.3.0 - 2023-12-19
 ### Components
