@@ -8,6 +8,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 [//]: # (## Unreleased)
 
+## 1.4.0 - 2024-02-20
+### Added
+- a dependency on `fast-xml-parser` has been added to the project - [commit](https://github.com/ILPN/ILPN-Module/commit/a0c7b99172d6cd23cebe8ff2883bba478a4b9b0a)
+- `PnDisplayModule` and `IlpnAlgorithmsModule` have been imported from ILPN Components - [commit](https://github.com/ILPN/ILPN-Module/commit/a0c7b99172d6cd23cebe8ff2883bba478a4b9b0a)
+- a default `PetriNetLayoutManagerFactoryService` is provided - [commit](https://github.com/ILPN/ILPN-Module/commit/a0c7b99172d6cd23cebe8ff2883bba478a4b9b0a)
+
+### Components
+- The components library version has been increased to v1.4.0
+
+
 ## 1.3.0 - 2023-12-19
 ### Components
 - The components library version has been increased to v1.3.0
