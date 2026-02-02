@@ -8,6 +8,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 [//]: # (## Unreleased)
 
+## 2.0.0 - 2026-02-02
+
+### Angular
+- updated Angular dependency from v13 to v17
+  - follow the official Angular updating guide to perform this update
+
+### Changed
+- added material typography configuration to the module stylesheet - [commit](https://github.com/ILPN/ILPN-Module/commit/b37f75ed65c501b1da07d58756bb9afab5d1acb2)
+
+### Components
+- The components library version has been increased to v2.0.0
+
 ## 1.5.0 - 2025-01-27
 ### Changed
 - extended the configuration of the `IlpnAlgorithmsModule`. Now, debug information logging is disabled by default - [commit](https://github.com/ILPN/ILPN-Module/commit/8d5eb08721366bc2a80f577c9d28924625b7bbbd)
