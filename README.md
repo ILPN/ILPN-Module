@@ -1,6 +1,6 @@
-# Template project for I love Petri nets website modules
+# Template project for I ❤ Petri nets website modules
 
-A skeleton repository for creating modules for the I love Petri nets website.
+A skeleton repository for creating modules for the I ❤ Petri nets website.
 
 ## Developing ILPN modules
 
@@ -20,7 +20,7 @@ This is the recommended way, since by forking this template repository, you have
 
 This project is marked as a template repository and it can therefore be easily cloned for your needs.
 The downside of this, is that the clone contains only a snapshot of the original at the time of its creation and future changes must be applied by hand.
-The template repository itself does not undergo major changes, so it is more an inconvenience, that a major pain point.
+The template repository itself does not undergo major changes, so it is more an inconvenience, than a major pain point.
 Changes made to this repository since version 1.0.0 are tracked in the [Changelog](./CHANGELOG.md) with links to the individual commits.
 
 All the modules maintained by the ILPN Github organisation are created like this, since owning multiple forks of the same repository is not supported by Github.
@@ -28,7 +28,7 @@ All the modules maintained by the ILPN Github organisation are created like this
 #### 3. Using a custom project with the ILPN Components library
 
 If you want to forgo the use of this ILPN module template in favour of your own project, you are welcome to do so.
-Keep in mind however, that the ILPN Components library is NOT published to the NPM registry, and must be therefore built locally.
+Keep in mind however, that the ILPN Components library is **NOT** published to the NPM package registry, and must be therefore built locally.
 You can use this project as a reference for setting this up.
 
 ### Adding the components library dependency
@@ -46,6 +46,8 @@ git clone --recurse-submodules <git repo link>
 This will clone the submodule project in addition to the template project.
 
 The library project is "read only" assuming you do not have access rights to the library repository. This means you can check-out any released changes, but you cannot push any changes of your own.
+
+The releases of the components library are tagged. We recommend checking-out only tagged commits. 
 
 #### 2. Extending the library
 
@@ -69,12 +71,14 @@ git clone --recurse-submodules <git repo link>
 
 ## Running the project
 
+This project uses Angular v17. Prepare your local development environment by following [their instructions](https://v17.angular.io/guide/setup-local).
+
 ### Development
 
 The `package.json` file contains the following notable scripts:
 
 - `test:components` - will run the unit test suites of the components library. The module template project itself contains no unit tests.
-- `bild-local:components` - will rebuild the components library and link it as a dependency to the module project
+- `bild-local:components` - will rebuild the components library and link it as a dependency to the module project.
 - `start` - will execute the build script, followed by `ng serve`. Keep in mind, that hot-reload will only register changes made to the served module project files, and will ignore any changes made to the library files. If you change the library files, you have to rebuild the library (by rerunning this script) to see the changes.
 
 ### Deployment
